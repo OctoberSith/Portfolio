@@ -1,138 +1,138 @@
 @charset "utf-8";
 
 body{
-    font-family: 'Montserrat';
-    background: #0c0c0c;
-    color: #ffffff;
+font-family: 'Montserrat';
+background: #0c0c0c;
+color: #ffffff;
 }
 
 a{
-    color: 9e9e9e;
-    text-decoration: none;
+color: 9e9e9e;
+text-decoration: none;
 }
 
 a:hover{
-    color: 1a1a1a;
-    text-decoration: none;
+color: 1a1a1a;
+text-decoration: none;
 }
 
 .content-container {
-    background: #ffffff;
-    color: #0c0c0c;
-    font-size: 12px;
-    font-family: 'Roboto-Slab';
+background: #ffffff;
+color: #0c0c0c;
+font-size: 12px;
+font-family: 'Roboto-Slab';
 }
 
 .sidebar-container {
-    position: fixed;
+position: fixed;
 }
 
 .sidebar-user-img{
-    border-radius: 50%;
+border-radius: 50%;
 }
 
 .sidebar-user-position{
-    color: #777676;
+color: #777676;
 }
 
 .nav-default{
-    color: #bebebe;
-    cursor: pointer;
+color: #bebebe;
+cursor: pointer;
 }
 
 .nav-default:hover{
-    cursor: pointer;
-    color: #ffffff;
+cursor: pointer;
+color: #ffffff;
 }
 
 .content-title{
-    color: 1a1a1a;
-    font-family: 'Montserrat';
+color: 1a1a1a;
+font-family: 'Montserrat';
 }
 
 .info-circle-container{
-    margin-top: 15px;
+margin-top: 15px;
 }
 
 .info-circle-container span {
-    margin-right: 5px;
+margin-right: 5px;
 }
 
 .about-text{
-    margin-top: 40px;
-    margin-bottom: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
 }
 
 .skills-container{
-    display: inline-block;
+display: inline-block;
 }
 
 .skills-ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+list-style: none;
+margin: 0px;
+padding: 0px;
 }
 
 .skills-ul li{
-    display: inline-block;
-    float: left;
-    width: 170px;
-    margin-top: 15px;
+display: inline-block;
+float: left;
+width: 170px;
+margin-top: 15px;
 }
 
 .nav-selected {
-    color: #ffffff;
+color: #ffffff;
 }
 
 .highlight-section {
-    margin-top: 40px;
+margin-top: 40px;
 }
 
 .highlight-section-inner {
-    display: inline-block;
-    width: 100%;
+display: inline-block;
+width: 100%;
 }
 
 .highlight-section-content {
-    color: #1a1a1a;
-    font-size: 14px;
-    font-family: 'Montserrat';
+color: #1a1a1a;
+font-size: 14px;
+font-family: 'Montserrat';
 }
 
 .highlight-section-title {
-    color: #1a1a1a;
-    font-size: 14px;
-    font-family: 'Montserrat';
+color: #1a1a1a;
+font-size: 14px;
+font-family: 'Montserrat';
 }
 
 .highlight-section-sub-title {
-    color: #777676;
-    font-size: 10px;
-    font-family: 'Montserrat';
-    margin-top: 5px;
+color: #777676;
+font-size: 10px;
+font-family: 'Montserrat';
+margin-top: 5px;
 }
 
 .highlight-section-text {
-    color: #0c0c0c;
-    font-size: 12px;
-    font-family: 'Roboto-Slab';
-    margin-top: 5px;
+color: #0c0c0c;
+font-size: 12px;
+font-family: 'Roboto-Slab';
+margin-top: 5px;
 }
 
 .highlight-section-separator {
-    border-bottom: 1px solid #bebebe;
-    margin-top: 40px;
+border-bottom: 1px solid #bebebe;
+margin-top: 40px;
 }
 
 @media only screen and ( min-width:1000px ) {
-    
+
     .content-container {
         width: 790px;
         float: right;
         margin-top: 40px;
         margin-bottom: 40px;
     }
- 
+
     .main-container {
         width: 1000px;
         margin: 0 auto;
@@ -228,7 +228,7 @@ a:hover{
 }
 
 @media only screen and ( max-width:1000px ) {
-    
+
     .content-container{
         margin-top: 65px;
     }
